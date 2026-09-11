@@ -79,3 +79,6 @@ Number.parseFloat("   12.34   "); // Output: 12.34
 
 // 4. Extracting from scientific notation strings
 Number.parseFloat("4.5e-3"); // Output: 0.0045
+
+// 5. Stopping at invalid characters
+Number.parseFloat("314.15abc99"); // Output: 314.15
