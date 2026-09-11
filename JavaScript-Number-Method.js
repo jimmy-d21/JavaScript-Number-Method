@@ -138,3 +138,6 @@ Number.isInteger("42"); // Output: false
 
 // 1. Basic significant digits formatting
 (123.4567).toPrecision(4); // Output: "123.5"
+
+// 2. Padding with zeros when precision exceeds digits
+(5.1).toPrecision(4); // Output: "5.100"
