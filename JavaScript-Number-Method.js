@@ -28,3 +28,6 @@
 
 // 4. Convert integer to Octal (Base 8)
 (8).toString(8); // Output: "10"
+
+// 5. Convert negative numbers to string
+(-42).toString(); // Output: "-42"
