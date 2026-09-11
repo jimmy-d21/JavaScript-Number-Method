@@ -90,3 +90,6 @@ Number.isNaN(NaN); // Output: true
 
 // 2. Result of mathematically impossible operations
 Number.isNaN(0 / 0); // Output: true
+
+// 3. String input handling (does NOT coerce, unlike global isNaN)
+Number.isNaN("hello"); // Output: false
