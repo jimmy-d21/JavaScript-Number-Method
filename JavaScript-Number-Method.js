@@ -124,3 +124,6 @@ Number.isInteger(42); // Output: true
 
 // 2. Float check
 Number.isInteger(42.5); // Output: false
+
+// 3. Float representation of an integer
+Number.isInteger(42.0); // Output: true
