@@ -121,3 +121,6 @@ Number.isFinite(NaN); // Output: false
 
 // 1. Whole integer check
 Number.isInteger(42); // Output: true
+
+// 2. Float check
+Number.isInteger(42.5); // Output: false
