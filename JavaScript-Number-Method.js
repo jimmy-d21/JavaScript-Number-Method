@@ -141,3 +141,6 @@ Number.isInteger("42"); // Output: false
 
 // 2. Padding with zeros when precision exceeds digits
 (5.1).toPrecision(4); // Output: "5.100"
+
+// 3. Rounding small decimals
+(0.00012345).toPrecision(2); // Output: "0.00012"
