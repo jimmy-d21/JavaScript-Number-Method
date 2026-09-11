@@ -82,3 +82,8 @@ Number.parseFloat("4.5e-3"); // Output: 0.0045
 
 // 5. Stopping at invalid characters
 Number.parseFloat("314.15abc99"); // Output: 314.15
+
+// Number.isNaN(val): Strict check for NaN value without type coercion (safer than global isNaN)
+
+// 1. True NaN validation
+Number.isNaN(NaN); // Output: true
