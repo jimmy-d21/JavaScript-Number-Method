@@ -22,3 +22,6 @@
 
 // 2. Convert integer to Binary (Base 2)
 (10).toString(2); // Output: "1010"
+
+// 3. Convert integer to Hexadecimal (Base 16)
+(255).toString(16); // Output: "ff"
