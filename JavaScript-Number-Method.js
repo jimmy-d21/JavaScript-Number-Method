@@ -73,3 +73,6 @@ Number.parseFloat("3.14159"); // Output: 3.14159
 
 // 2. Parsing string with units
 Number.parseFloat("2.5em"); // Output: 2.5
+
+// 3. Ignoring leading whitespace
+Number.parseFloat("   12.34   "); // Output: 12.34
