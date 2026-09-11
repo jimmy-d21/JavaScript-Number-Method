@@ -65,3 +65,8 @@ Number.parseInt("1101", 2); // Output: 13
 
 // 5. Handling invalid leading text
 Number.parseInt("abc123", 10); // Output: NaN
+
+// Number.parseFloat(str): Extracts floating-point decimal from the start of a string
+
+// 1. Basic decimal parsing
+Number.parseFloat("3.14159"); // Output: 3.14159
