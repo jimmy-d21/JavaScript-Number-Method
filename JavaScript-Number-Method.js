@@ -87,3 +87,6 @@ Number.parseFloat("314.15abc99"); // Output: 314.15
 
 // 1. True NaN validation
 Number.isNaN(NaN); // Output: true
+
+// 2. Result of mathematically impossible operations
+Number.isNaN(0 / 0); // Output: true
