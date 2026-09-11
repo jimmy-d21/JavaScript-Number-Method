@@ -14,3 +14,8 @@
 
 // 5. Handling zero-valued floats
 (0.0007).toFixed(3); // Output: "0.001"
+
+// .toString(radix): Converts number to string; pass radix (2-36) for base conversion
+
+// 1. Basic conversion to string (Base 10)
+(255).toString(); // Output: "255"
