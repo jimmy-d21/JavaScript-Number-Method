@@ -113,3 +113,6 @@ Number.isFinite(10 / 0); // Output: false
 
 // 4. Strict check prevents string coercion
 Number.isFinite("100"); // Output: false
+
+// 5. Checking NaN
+Number.isFinite(NaN); // Output: false
