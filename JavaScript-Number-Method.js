@@ -19,3 +19,6 @@
 
 // 1. Basic conversion to string (Base 10)
 (255).toString(); // Output: "255"
+
+// 2. Convert integer to Binary (Base 2)
+(10).toString(2); // Output: "1010"
