@@ -59,3 +59,6 @@ Number.parseInt("100px", 10); // Output: 100
 
 // 3. Truncating floating-point numbers in string form
 Number.parseInt("19.99", 10); // Output: 19
+
+// 4. Parsing binary strings (Base 2)
+Number.parseInt("1101", 2); // Output: 13
