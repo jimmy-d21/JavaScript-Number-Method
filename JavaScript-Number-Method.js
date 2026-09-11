@@ -147,3 +147,6 @@ Number.isInteger("42"); // Output: false
 
 // 4. Converting large numbers to scientific format when precision is small
 (123456).toPrecision(2); // Output: "1.2e+5"
+
+// 5. Preserving single significant digit
+(9.99).toPrecision(1); // Output: "1e+1"
