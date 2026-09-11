@@ -31,3 +31,8 @@
 
 // 5. Convert negative numbers to string
 (-42).toString(); // Output: "-42"
+
+// .valueOf(): Unwraps a Number object to its primitive numeric value
+
+// 1. Unwrapping explicit Number object
+new Number(42).valueOf(); // Output: 42
