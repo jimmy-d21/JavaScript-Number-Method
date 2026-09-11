@@ -62,3 +62,6 @@ Number.parseInt("19.99", 10); // Output: 19
 
 // 4. Parsing binary strings (Base 2)
 Number.parseInt("1101", 2); // Output: 13
+
+// 5. Handling invalid leading text
+Number.parseInt("abc123", 10); // Output: NaN
