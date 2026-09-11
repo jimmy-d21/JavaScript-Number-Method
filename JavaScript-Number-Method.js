@@ -8,3 +8,6 @@
 
 // 3. Adding trailing zeros for currency display
 (50).toFixed(2); // Output: "50.00"
+
+// 4. Whole integer rounding
+(123.456).toFixed(0); // Output: "123"
