@@ -144,3 +144,6 @@ Number.isInteger("42"); // Output: false
 
 // 3. Rounding small decimals
 (0.00012345).toPrecision(2); // Output: "0.00012"
+
+// 4. Converting large numbers to scientific format when precision is small
+(123456).toPrecision(2); // Output: "1.2e+5"
