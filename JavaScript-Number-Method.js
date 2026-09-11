@@ -99,3 +99,8 @@ Number.isNaN(undefined); // Output: false
 
 // 5. Valid number handling
 Number.isNaN(123); // Output: false
+
+// Number.isFinite(val): Checks if value is a real, non-infinite number without coercion
+
+// 1. Valid finite number check
+Number.isFinite(100); // Output: true
