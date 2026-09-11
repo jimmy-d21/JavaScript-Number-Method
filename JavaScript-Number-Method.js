@@ -56,3 +56,6 @@ Number.parseInt("42", 10); // Output: 42
 
 // 2. Stripping non-numeric trailing units (e.g., CSS dimensions)
 Number.parseInt("100px", 10); // Output: 100
+
+// 3. Truncating floating-point numbers in string form
+Number.parseInt("19.99", 10); // Output: 19
