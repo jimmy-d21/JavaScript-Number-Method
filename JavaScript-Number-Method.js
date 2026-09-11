@@ -5,3 +5,6 @@
 
 // 2. Automatic rounding up
 (19.9876).toFixed(2); // Output: "19.99"
+
+// 3. Adding trailing zeros for currency display
+(50).toFixed(2); // Output: "50.00"
