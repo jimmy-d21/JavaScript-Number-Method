@@ -70,3 +70,6 @@ Number.parseInt("abc123", 10); // Output: NaN
 
 // 1. Basic decimal parsing
 Number.parseFloat("3.14159"); // Output: 3.14159
+
+// 2. Parsing string with units
+Number.parseFloat("2.5em"); // Output: 2.5
