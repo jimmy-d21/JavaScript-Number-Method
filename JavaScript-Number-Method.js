@@ -36,3 +36,6 @@
 
 // 1. Unwrapping explicit Number object
 new Number(42).valueOf(); // Output: 42
+
+// 2. ValueOf on primitive number return primitive value
+(100).valueOf(); // Output: 100
