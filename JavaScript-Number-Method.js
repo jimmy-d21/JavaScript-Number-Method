@@ -96,3 +96,6 @@ Number.isNaN("hello"); // Output: false
 
 // 4. Undefined handling
 Number.isNaN(undefined); // Output: false
+
+// 5. Valid number handling
+Number.isNaN(123); // Output: false
