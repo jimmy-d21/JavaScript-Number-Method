@@ -130,3 +130,6 @@ Number.isInteger(42.0); // Output: true
 
 // 4. Checking float precision boundary
 Number.isInteger(0.0000000000000001); // Output: false
+
+// 5. Non-numeric parameter check
+Number.isInteger("42"); // Output: false
