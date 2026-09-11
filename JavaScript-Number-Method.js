@@ -39,3 +39,6 @@ new Number(42).valueOf(); // Output: 42
 
 // 2. ValueOf on primitive number return primitive value
 (100).valueOf(); // Output: 100
+
+// 3. Implicit execution during mathematical operations
+new Number(10) + 5; // Output: 15
