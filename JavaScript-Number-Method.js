@@ -45,3 +45,6 @@ new Number(10) + 5; // Output: 15
 
 // 4. Unwrapping floating-point Number object
 new Number(3.14).valueOf(); // Output: 3.14
+
+// 5. Comparing primitive value against wrapper instance
+new Number(5).valueOf() === 5; // Output: true
