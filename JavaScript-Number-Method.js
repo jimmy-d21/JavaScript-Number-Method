@@ -11,3 +11,6 @@
 
 // 4. Whole integer rounding
 (123.456).toFixed(0); // Output: "123"
+
+// 5. Handling zero-valued floats
+(0.0007).toFixed(3); // Output: "0.001"
