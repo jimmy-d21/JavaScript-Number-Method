@@ -127,3 +127,6 @@ Number.isInteger(42.5); // Output: false
 
 // 3. Float representation of an integer
 Number.isInteger(42.0); // Output: true
+
+// 4. Checking float precision boundary
+Number.isInteger(0.0000000000000001); // Output: false
