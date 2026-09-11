@@ -25,3 +25,6 @@
 
 // 3. Convert integer to Hexadecimal (Base 16)
 (255).toString(16); // Output: "ff"
+
+// 4. Convert integer to Octal (Base 8)
+(8).toString(8); // Output: "10"
