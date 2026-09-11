@@ -116,3 +116,8 @@ Number.isFinite("100"); // Output: false
 
 // 5. Checking NaN
 Number.isFinite(NaN); // Output: false
+
+// Number.isInteger(val): Returns true if value is a finite whole number
+
+// 1. Whole integer check
+Number.isInteger(42); // Output: true
