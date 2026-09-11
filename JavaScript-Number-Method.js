@@ -107,3 +107,6 @@ Number.isFinite(100); // Output: true
 
 // 2. Infinity check
 Number.isFinite(Infinity); // Output: false
+
+// 3. Division by zero outcome check
+Number.isFinite(10 / 0); // Output: false
