@@ -133,3 +133,8 @@ Number.isInteger(0.0000000000000001); // Output: false
 
 // 5. Non-numeric parameter check
 Number.isInteger("42"); // Output: false
+
+// .toPrecision(n): Formats number to 'n' TOTAL significant digits (returns a string)
+
+// 1. Basic significant digits formatting
+(123.4567).toPrecision(4); // Output: "123.5"
