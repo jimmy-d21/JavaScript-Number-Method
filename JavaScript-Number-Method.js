@@ -53,3 +53,6 @@ new Number(5).valueOf() === 5; // Output: true
 
 // 1. Basic string parsing (Base 10)
 Number.parseInt("42", 10); // Output: 42
+
+// 2. Stripping non-numeric trailing units (e.g., CSS dimensions)
+Number.parseInt("100px", 10); // Output: 100
