@@ -48,3 +48,8 @@ new Number(3.14).valueOf(); // Output: 3.14
 
 // 5. Comparing primitive value against wrapper instance
 new Number(5).valueOf() === 5; // Output: true
+
+// Number.parseInt(str, radix): Extracts whole integer from string start; always specify radix (10)
+
+// 1. Basic string parsing (Base 10)
+Number.parseInt("42", 10); // Output: 42
