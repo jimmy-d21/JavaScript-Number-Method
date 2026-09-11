@@ -104,3 +104,6 @@ Number.isNaN(123); // Output: false
 
 // 1. Valid finite number check
 Number.isFinite(100); // Output: true
+
+// 2. Infinity check
+Number.isFinite(Infinity); // Output: false
