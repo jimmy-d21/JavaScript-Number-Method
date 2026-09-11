@@ -110,3 +110,6 @@ Number.isFinite(Infinity); // Output: false
 
 // 3. Division by zero outcome check
 Number.isFinite(10 / 0); // Output: false
+
+// 4. Strict check prevents string coercion
+Number.isFinite("100"); // Output: false
