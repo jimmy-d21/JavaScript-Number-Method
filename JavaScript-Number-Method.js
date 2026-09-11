@@ -42,3 +42,6 @@ new Number(42).valueOf(); // Output: 42
 
 // 3. Implicit execution during mathematical operations
 new Number(10) + 5; // Output: 15
+
+// 4. Unwrapping floating-point Number object
+new Number(3.14).valueOf(); // Output: 3.14
