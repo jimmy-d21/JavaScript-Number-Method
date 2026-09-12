@@ -175,3 +175,6 @@ Number.EPSILON; // Output: 2.220446049250313e-16
 
 // 2. The standard floating-point precision issue
 0.1 + 0.2 === 0.3; // Output: false
+
+// 3. Solving floating-point precision check with EPSILON
+Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON; // Output: true
