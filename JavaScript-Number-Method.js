@@ -205,3 +205,8 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 // 5. Unit formatting
 (50).toLocaleString("en-US", { style: "unit", unit: "mile-per-hour" });
 // Output: "50 mph"
+
+// .toExponential(digits): Formats number into scientific exponential notation string
+
+// 1. Basic conversion to exponential string
+(123456).toExponential(); // Output: "1.23456e+5"
