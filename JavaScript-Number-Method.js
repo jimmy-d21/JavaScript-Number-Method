@@ -213,3 +213,6 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 
 // 2. Limiting digits after decimal place
 (123456).toExponential(2); // Output: "1.23e+5"
+
+// 3. Exponential representation for small decimals
+(0.0000123).toExponential(1); // Output: "1.2e-5"
