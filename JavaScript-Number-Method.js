@@ -150,3 +150,8 @@ Number.isInteger("42"); // Output: false
 
 // 5. Preserving single significant digit
 (9.99).toPrecision(1); // Output: "1e+1"
+
+// Number.isSafeInteger(val): Checks if integer fits within safe IEEE 754 precision limits (-(2^53-1) to 2^53-1)
+
+// 1. Safe max integer check
+Number.isSafeInteger(9007199254740991); // Output: true
