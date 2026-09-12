@@ -201,3 +201,7 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 
 // 4. Formatting as percentages
 (0.85).toLocaleString("en-US", { style: "percent" }); // Output: "85%"
+
+// 5. Unit formatting
+(50).toLocaleString("en-US", { style: "unit", unit: "mile-per-hour" });
+// Output: "50 mph"
