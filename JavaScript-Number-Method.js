@@ -198,3 +198,6 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 // 3. Localized currency formatting (Euro in Germany)
 (1234.56).toLocaleString("de-DE", { style: "currency", currency: "EUR" });
 // Output: "1.234,56 €"
+
+// 4. Formatting as percentages
+(0.85).toLocaleString("en-US", { style: "percent" }); // Output: "85%"
