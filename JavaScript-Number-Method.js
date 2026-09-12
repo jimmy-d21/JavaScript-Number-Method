@@ -167,3 +167,8 @@ Number.isSafeInteger(10.5); // Output: false
 
 // 5. Non-number types return false
 Number.isSafeInteger("9007199254740991"); // Output: false
+
+// Number.EPSILON: Smallest float step; use to compare floating-point equality safely
+
+// 1. EPSILON constant value inspect
+Number.EPSILON; // Output: 2.220446049250313e-16
