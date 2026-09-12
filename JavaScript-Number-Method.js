@@ -185,3 +185,8 @@ floatEquals(0.1 + 0.7, 0.8); // Output: true
 
 // 5. Handling subtraction floating anomalies
 floatEquals(1.0 - 0.9, 0.1); // Output: true
+
+// .toLocaleString(locale, options): Formats number with localized separators, currencies, and percentages
+
+// 1. Localized thousands separators (US English)
+(1234567.89).toLocaleString("en-US"); // Output: "1,234,567.89"
