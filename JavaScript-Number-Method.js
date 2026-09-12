@@ -164,3 +164,6 @@ Number.isSafeInteger(-100000); // Output: true
 
 // 4. Float numbers are not safe integers
 Number.isSafeInteger(10.5); // Output: false
+
+// 5. Non-number types return false
+Number.isSafeInteger("9007199254740991"); // Output: false
