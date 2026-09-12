@@ -216,3 +216,6 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 
 // 3. Exponential representation for small decimals
 (0.0000123).toExponential(1); // Output: "1.2e-5"
+
+// 4. Exact zero expansion
+(0).toExponential(2); // Output: "0.00e+0"
