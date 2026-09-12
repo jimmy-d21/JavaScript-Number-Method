@@ -194,3 +194,7 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 // 2. Localized currency formatting (US Dollars)
 (1234.56).toLocaleString("en-US", { style: "currency", currency: "USD" });
 // Output: "$1,234.56"
+
+// 3. Localized currency formatting (Euro in Germany)
+(1234.56).toLocaleString("de-DE", { style: "currency", currency: "EUR" });
+// Output: "1.234,56 €"
