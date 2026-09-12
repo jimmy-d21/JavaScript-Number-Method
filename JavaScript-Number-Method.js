@@ -182,3 +182,6 @@ Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON; // Output: true
 // 4. Custom float equality helper
 const floatEquals = (a, b) => Math.abs(a - b) < Number.EPSILON;
 floatEquals(0.1 + 0.7, 0.8); // Output: true
+
+// 5. Handling subtraction floating anomalies
+floatEquals(1.0 - 0.9, 0.1); // Output: true
