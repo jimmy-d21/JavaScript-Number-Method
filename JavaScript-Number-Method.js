@@ -158,3 +158,6 @@ Number.isSafeInteger(9007199254740991); // Output: true
 
 // 2. Unsafe max integer check (exceeds precision limits)
 Number.isSafeInteger(9007199254740992); // Output: false
+
+// 3. Safe negative integer check
+Number.isSafeInteger(-100000); // Output: true
