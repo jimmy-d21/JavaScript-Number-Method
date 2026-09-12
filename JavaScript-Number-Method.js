@@ -155,3 +155,6 @@ Number.isInteger("42"); // Output: false
 
 // 1. Safe max integer check
 Number.isSafeInteger(9007199254740991); // Output: true
+
+// 2. Unsafe max integer check (exceeds precision limits)
+Number.isSafeInteger(9007199254740992); // Output: false
