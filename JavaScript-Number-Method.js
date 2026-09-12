@@ -190,3 +190,7 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 
 // 1. Localized thousands separators (US English)
 (1234567.89).toLocaleString("en-US"); // Output: "1,234,567.89"
+
+// 2. Localized currency formatting (US Dollars)
+(1234.56).toLocaleString("en-US", { style: "currency", currency: "USD" });
+// Output: "$1,234.56"
