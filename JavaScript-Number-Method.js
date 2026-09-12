@@ -219,3 +219,6 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 
 // 4. Exact zero expansion
 (0).toExponential(2); // Output: "0.00e+0"
+
+// 5. Formatting negative numbers exponentially
+(-98765).toExponential(3); // Output: "-9.877e+4"
