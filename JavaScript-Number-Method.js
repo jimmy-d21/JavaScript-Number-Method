@@ -210,3 +210,6 @@ floatEquals(1.0 - 0.9, 0.1); // Output: true
 
 // 1. Basic conversion to exponential string
 (123456).toExponential(); // Output: "1.23456e+5"
+
+// 2. Limiting digits after decimal place
+(123456).toExponential(2); // Output: "1.23e+5"
