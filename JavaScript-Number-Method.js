@@ -172,3 +172,6 @@ Number.isSafeInteger("9007199254740991"); // Output: false
 
 // 1. EPSILON constant value inspect
 Number.EPSILON; // Output: 2.220446049250313e-16
+
+// 2. The standard floating-point precision issue
+0.1 + 0.2 === 0.3; // Output: false
