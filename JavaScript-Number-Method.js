@@ -178,3 +178,7 @@ Number.EPSILON; // Output: 2.220446049250313e-16
 
 // 3. Solving floating-point precision check with EPSILON
 Math.abs(0.1 + 0.2 - 0.3) < Number.EPSILON; // Output: true
+
+// 4. Custom float equality helper
+const floatEquals = (a, b) => Math.abs(a - b) < Number.EPSILON;
+floatEquals(0.1 + 0.7, 0.8); // Output: true
